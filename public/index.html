@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Chat</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="chat-container">
-    <div class="header">
-      AI 陪伴聊天
-    </div>
 
-    <div id="chatBox" class="chat-box"></div>
-
-    <div class="input-area">
-      <input
-        type="text"
-        id="messageInput"
-        placeholder="输入消息..."
-      />
-      <button onclick="sendMessage()">发送</button>
-    </div>
+<div class="chat-container">
+  <div class="header">
+    AI聊天
   </div>
 
-  <script src="script.js"></script>
+  <div id="chatBox" class="chat-box"></div>
+
+  <div class="input-area">
+    <input type="text" id="messageInput" placeholder="输入消息">
+    <button onclick="sendMessage()">发送</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
